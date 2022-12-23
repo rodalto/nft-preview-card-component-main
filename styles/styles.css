@@ -1,0 +1,97 @@
+.bbody {
+  font-family: "Outfit";
+  background-color: hsl(217, 54%, 11%);
+  width: 1440px;
+  padding-top: 400px;
+  padding-left: 1000px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-style {
+  background-color: hsl(216, 50%, 16%);
+  width: min-content;
+  border-radius: 35px;
+  height: 1200px;
+  margin: auto;
+}
+
+.nft-img {
+  border-radius: 45px;
+  padding: 30px 35px 30px 30px;
+  transform: scale(1);
+  transition: all 0.9s;
+}
+
+.nft-img:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  color: white;
+  font-weight: 600;
+  font-size: 45px;
+  padding-left: 35px;
+  transform: scale(1);
+  transition: all 0.9s;
+}
+
+.title:hover {
+  color: #40e0d0;
+  cursor: pointer;
+}
+
+.parag {
+  color: rgb(130, 151, 168);
+  font-weight: 300;
+  font-size: 35px;
+  padding-left: 35px;
+}
+.left-parag {
+  font-weight: 600;
+  font-size: 35px;
+  color: #40e0d0;
+}
+.right-parag {
+  color: rgb(130, 151, 168);
+  font-size: 35px;
+  padding-right: 35px;
+}
+
+.author-name {
+  color: rgb(130, 151, 168);
+  font-size: 35px;
+  line-height: 150px;
+  border-top: 1px solid rgb(130, 151, 168);
+  border-bottom: 1px solid rgb(130, 151, 168);
+  border-radius: 30px;
+  text-align: center;
+}
+
+.my-name {
+  color: white;
+  transform: scale(1);
+  transition: all 0.9s;
+}
+
+.my-name:hover {
+  color: #40e0d0;
+  cursor: pointer;
+}
+
+.icons {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+
+.author-style-img {
+  border: ridge 1px;
+  border-spacing: cm 2em;
+  border-radius: 50%;
+  border-color: black;
+}
